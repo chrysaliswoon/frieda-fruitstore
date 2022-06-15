@@ -1,0 +1,111 @@
+/* element selector */
+
+body {
+  background-color: cornsilk;
+}
+
+div {
+  /* border: 0.5px black dashed; */
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.title {
+  margin: 20px;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+.fruits {
+  border: 1px black solid;
+  /* Adjusts the size according the screen size */
+  width: 10vw;
+  width: 10vh;
+}
+
+.thumbnail {
+  width: 5vw;
+  border: 1px black solid;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0px 0px 0px grey;
+  transition-property: box-shadow;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+}
+.thumbnail:hover {
+    box-shadow: 5px 5px 5px grey;
+
+  }
+
+.heroImage {
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.fruitList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.storeItems {
+    padding: 30px;
+    margin: 40px;
+    border-radius: 5px;
+    background-color:burlywood;
+    box-shadow: 0px 0px 0px grey;
+    transition-property: box-shadow;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+}
+
+.storeItems:hover {
+    box-shadow: 5px 5px 5px grey;
+}
+
+h1 {
+    text-align: center;
+  font-family: fantasy;
+  font-size: xxx-large;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.menu>li {
+    display: inline;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.menuitem {
+    margin-right: 10px;
+    margin-bottom: 0px black solid;
+    box-shadow: 0px 0px 0px grey;
+    transition-property: box-shadow;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+}
+
+.menuitem:hover {
+    box-shadow: 5px 5px 5px grey;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
